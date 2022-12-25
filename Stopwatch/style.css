@@ -1,0 +1,86 @@
+ body{
+    background-color: rgb(128, 170, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    color: rgb(0, 0, 0);
+}
+.txt{
+    font-size: 25px;
+}
+.digit{
+    font-size: 150px;
+}
+#btn{
+    text-align: center;
+    padding-top: 50px;
+}
+.btn{
+    padding: 5px 25px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+} 
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+/* #start{
+    background-color:rgb(206, 130, 79)
+}
+#stop{
+    background-color:  rgb(206, 130, 79);
+}
+#reset{
+    background-color: rgb(206, 130, 79);
+} */
+
+@media screen and (max-width : 730px) {
+    .digit{
+        font-size: 100px;
+    }
+    .txt{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 500px) {
+    .digit{
+        font-size: 60px;
+    }
+    .txt{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 400px) {
+    .digit{
+        font-size: 50px;
+    }
+    .txt{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 350px) {
+    .digit{
+        font-size: 30px;
+    }
+    #hr{
+        padding-left: 30px;
+    }
+    .txt{
+        font-size: 15px;
+    }
+    #start{
+        
+    }
+    #stop{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top:5px;
+        margin-bottom:5px;
+        
+    }
+}
